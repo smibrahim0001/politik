@@ -1,0 +1,201 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    /* header start */
+    .menu{
+        margin-top: 15px;
+    }
+    .menu ul li {
+        margin-top: 0 !important;
+        text-align: center;
+    }
+    .menu ul li a button { 
+        font-size: 12px;
+        padding: 10px 12px;
+        padding-top: 12px;
+        width: auto;
+        }
+    /* header end */
+    /* contact start */
+    .contact {
+        padding: 35px 0;
+    }
+    .contact h1{
+        font-size: 20px;
+        margin-bottom: 25px;
+        
+    }
+    .contact p{
+    word-spacing: 0;
+    letter-spacing: 0;
+    margin-bottom: 25px;
+    }
+    .contact button{
+        width: 100%;
+        margin-bottom: 13px;
+    }
+    
+    /* contact end */
+    /* service start */
+    .title h2{
+        font-size: 20px;
+    }
+    .tilte p{
+        font-size: 14px;
+    }
+    .service {
+        padding-top: 30px;
+    }
+    .S_card{
+        margin-top: 0px;
+
+    }
+    /* service end */
+    /* time count start */
+    .timeCount{
+        padding-bottom: 40px;
+    }
+    .t_card
+    {
+        margin-top: 15px;
+        padding: 16px 0px;
+    }
+    .t_button{
+        text-transform: uppercase;
+        width: 98%;
+        border-radius: 30px;
+        padding: 11px 12px;
+        font-size: 14px;
+        color: white;
+        margin-top: 31px;
+        background-color: #eb1b2b;
+    }
+
+    /* time count end */
+
+    /* creation teammate start*/
+    .teammate {
+        padding-bottom: 40px;
+    }
+    /* creation teammate end*/
+
+
+
+
+ }
+
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /* header start */
+    .menu{
+        margin-top:    15px;
+    }
+    .menu ul li {
+        margin-top: 0 !important;
+        text-align: center;
+    }
+    .menu ul li a button { 
+        font-size: 13px;
+        padding: 10px 12px;
+        padding-top: 12px;
+        width: auto;
+    }
+    /* header end */
+    /* contact start */
+    .contact {
+        padding: 35px 0;
+    }
+    .contact h1{
+        font-size: 26px;
+        margin-bottom: 27px;
+        
+    }
+    .contact p{
+    word-spacing: 0;
+    letter-spacing: 0;
+    margin-bottom: 25px;
+    font-size: 15px;
+    }
+    
+    /* contact end */
+    /* service start */
+    .service {
+        padding-top: 30px;
+    }
+    .S_card{
+        margin-top: 0px;
+
+    }
+    
+    /* service end */
+    /* time count start */
+    
+    .t_card
+    {
+        margin-top: 25px;
+        padding: 40px 0px;
+    }
+    .t_button{
+        text-transform: uppercase;
+        width: 98%;
+        border-radius: 30px;
+        padding: 11px 12px;
+        font-size: 14px;
+        color: white;
+        margin-top: 31px;
+        background-color: #eb1b2b;
+    }
+
+    /* time count end */
+    /* creation teammate start*/
+    .teammate {
+        padding-bottom: 40px;
+    }
+    /* creation teammate end*/
+
+
+
+ }
+
+
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /* header start */
+    .menu ul li a{
+        margin-right: 0;
+    }
+    .menu ul li a button { 
+    font-size: 15px;
+    padding: 10px 12px;
+    padding-top: 12px;
+    }
+    /* header end */
+    /* contact start */
+    .contact {
+        padding: 80px 0;
+    }
+    /* contact end */
+
+
+ }
+
+
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+
+
+
+ }
+
+
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+
+
+
+ }
